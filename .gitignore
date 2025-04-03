@@ -1,0 +1,84 @@
+# ========== Unity ==========
+
+# Ignorer les dossiers temporaires de build et de cache
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Assemblies VS & Rider
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Ignorer les fichiers Unity auto-générés
+*.unitypackage
+*.bak
+*.old
+*.orig
+*.pidb.meta
+
+# Ignorer les meta inutiles et fichiers système
+*.DS_Store
+*.apk
+*.aab
+*.exe
+*.app
+*.log
+
+# Crash logs
+sysinfo.txt
+
+# Fichiers de configuration personnelle
+*.prefs
+*.plist
+
+# Unity Collaborate
+.collab/
+
+# UPM (Unity Package Manager)
+Packages/manifest.json
+Packages/packages-lock.json
+
+# Autres dossiers non versionnés
+.expo/
+.env
+node_modules/
+
+# Platform-specific
+*.swp
+*.swo
+*.db
+*.sqlite
+*.class
+*.jar
+*.dex
+*.apk
+*.keystore
+
+# ========== END ==========
+
+# Optionnel : garder les Assets, ProjectSettings, etc.
+# Ceux-ci DOIVENT être versionnés :
+!Assets/
+!ProjectSettings/
+!Packages/
